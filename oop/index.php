@@ -1,38 +1,22 @@
 <?php
-class TestClass
-{
-    public $name;
-    function __construct()
-    {
-        echo "hello world";
-    }
-    function welcome()
-    {
-        return "welcome";
-    }
-
-    function getName()
-    {
-        if (!isset($this->name)) {
-            return "No name";
-        } else {
-            return $this->name;
-        }
-    }
-
-    function setName($name)
-    {
-        $this->name = $name;
-        echo "successfully set";
-    }
-}
-$testObj = new TestClass();
-echo "<br>";
-echo $testObj->welcome();
-echo "<br>";
-echo $testObj->getName();
-echo "<br>";
-$testObj->setName('llkkllkl');
-echo "<br>";
-echo $testObj->getName();
-echo "<br>";
+include('iterbles.php');
+exit;
+include('static.php');
+exit;
+// include('this.php');
+// exit;
+// include('final.php');
+// exit;
+// include('private.php');
+// exit;
+// include('protected.php');
+// exit;
+// include('public.php');
+// exit;
+// include('include.php');
+// echo "I have a $color ";
+// exit;
+// include('inheritance.php');
+// exit;
+// include('basic-oop.php');
+?>
