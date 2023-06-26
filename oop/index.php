@@ -1,8 +1,12 @@
 <?php
-include('iterbles.php');
+// include('db.php');
+// exit;
+include('jqueryform.php');
 exit;
-include('static.php');
-exit;
+// include('iterbles.php');
+// exit;
+// include('static.php');
+// exit;
 // include('this.php');
 // exit;
 // include('final.php');
